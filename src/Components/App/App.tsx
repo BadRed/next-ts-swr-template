@@ -1,3 +1,11 @@
 export function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <header>
+        <h1>Header</h1>
+      </header>
+      <main>Body here</main>
+      <footer>Footer</footer>
+    </>
+  );
 }
