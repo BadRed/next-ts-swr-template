@@ -1,8 +1,13 @@
+import styled from '@emotion/styled';
+const StyledHeader = styled.h1`
+  color: hotpink;
+`;
+
 export function App() {
   return (
     <>
       <header>
-        <h1>Header</h1>
+        <StyledHeader>Header</StyledHeader>
       </header>
       <main>Body here</main>
       <footer>Footer</footer>
